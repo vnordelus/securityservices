@@ -1,0 +1,66 @@
+<DOCTYPE HTML><link rel="stylesheet" type="text/css" href="Security.css">
+<html>
+<meta char set="utf8">
+
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="UniversityHealthWebsite.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<title> Health Care Services</title>
+
+<center><div id="nav" align="center">
+       
+      <u1>
+	  <li><font color="white" size="2.5"><a href="Security.html">Home</a></font></li>
+       <li><font color="white" size="2.5"><a href="aboutus.html">About Us</a></font></li>
+    <li><font color="white" size="2.5"><a href="">Services</a></li></font>
+    <li><font color="white" size="2.5"><a href="employment.html">Employment</a></font></li>
+    <li><font color="white" size="2.5"><a href="">Contact Us</a></font></li>
+   
+  </ul>
+  </center>
+  </div>
+  </head>
+  
+  
+  <script type="text/javascript">
+  
+  $(function(){
+    $page = jQuery.url.attr("file");
+    if(!$page) {
+        $page = 'index.html';
+    }
+    $('#navigation li a').each(function(){
+        var $href = $(this).attr('href');
+        if ( ($href == $page) || ($href == '') ) {
+            $(this).addClass('on');
+        } else {
+            $(this).removeClass('on');
+        }
+    });
+});
+  
+  
+  </script>
+
+<body style ="background-color:black">
+
+<div class="container">
+
+
+ <div class="row">
+ 
+  <div class="col-md-6">
+  <hr style="border-color:yellow" width="180%"></hr> 
+  <div style="background-color:#505050  "  class="jumbotron">
+  <h3><u><font color="white"> Business Security</u></h3></br></br>
+  <font color="white" face="impact"><p> We provide security for businesses as well. </font><br></br>
+   We realize that security is a major issue for many companies as crime rates continue to climb.
+   As a result, we have provide professionalized, protection services for institutions such as health care facilities,
+   banks, retail stores, hotels and other businesses. Our competent security staff will ensure that your business is well-secured. </p>
+  </div>
+  </div>
+  <div class="col-md-6">
+  </br></br><h3><font color="white" face="impact"><u>"Protecting Lives and Properties is our mission"</u></h1></br></br>
+  <img style="border:10px dotted gray" src="http://www.bodyguardservice.net/grafik/img_fp20.jpg" height="300" width="400"> </img>

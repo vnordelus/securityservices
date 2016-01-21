@@ -1,0 +1,32 @@
+#wrapper{
+border: 5px solid blue;
+width:1000px;
+margin:20px auto;
+text-align:left;
+
+
+
+}
+
+body {
+  text-align: center;
+
+}
+#heading{
+background:blue;
+border: 2px solid black;
+padding: 20px;
+
+}
+#menubar{
+
+background-color:gray;
+
+}
+#menubar li{
+
+display:inline-block;
+padding:5px;
+font: bold 16px Tahoma;
+
+}

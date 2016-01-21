@@ -1,0 +1,159 @@
+
+
+
+
+
+h1{
+   color: white;
+}
+
+
+
+body#home a#home,
+body#aboutus a#aboutus,
+body#services a#services,
+body#employment a#employment,
+body#contactus   a#contactus {
+color: #fff;
+background: #787878 ;
+}
+{
+  background:red;
+  color:white;
+}
+
+
+
+  
+
+
+#nav{
+ width:87em;
+ align:center;
+ height:
+ list-style-type: none;
+ padding: 0;
+ margin: 0 auto;
+ display:;
+ color: black;
+ text-align:center;
+ border-radius: 10px;
+}
+
+#jum{
+  
+  width:1000px;
+  margin:10px;
+  padding:20px;
+  text-align: center;
+
+}
+
+
+
+#bigwrapper{
+     margin: 
+
+}
+#topheading{
+        margin:20px;
+		padding:20px;
+		width:900px;
+}
+#image{ border:5em;
+
+}
+
+
+#nav li{
+float: left;
+ margin: 0em;
+ font-size: 15px;
+ font-color: black;
+ 
+ } 
+ #nav li a
+ {
+ background:;
+ height: 3em;
+ line-height: 2em;
+ float: center;
+ width: 10.5em;
+ display: block;
+ border: ;
+ border-radius: 10px;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ }
+
+ 
+ }
+nav li:hover {
+  background: #555;
+  color: #fff;
+}
+nav li nav {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+ 
+ /* Hide from IE5-Mac \*/
+ #nav a
+ {
+ float: none
+ }
+ /* End hide */
+ .btn{
+    background: black;
+ }
+ .other-color{
+          background:green;
+  h1{
+     font-size:2em;
+ }
+ body{
+
+    background-color:#b0c4de;
+}
+.container{ height: 300px;
+
+}
+ #jumbotron1{ height:600px;
+}
+.jumbotron{
+           background-image:url);
+		  
+mark{
+     background-image: url("http://uspsafe.net/images/security.jpg");
+
+}
+#p{ font-size: 2em;
+
+}
